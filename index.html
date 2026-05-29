@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LevelUp Gym</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0F172A;
+      color: #F1F5F9;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      background: #1E293B;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #22C55E;
+    }
+
+    header h1 {
+      font-size: 22px;
+      color: #22C55E;
+    }
+
+    header span {
+      font-size: 13px;
+      color: #94A3B8;
+    }
+
+    /* ── HERO ── */
+    .hero {
+      text-align: center;
+      padding: 80px 40px;
+    }
+
+    .hero h2 {
+      font-size: 40px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 17px;
+      color: #CBD5E1;
+      max-width: 700px;
+      margin: 0 auto 32px;
+      line-height: 1.7;
+    }
+
+    .btn {
+      background: #22C55E;
+      color: #0F172A;
+      padding: 14px 30px;
+      border-radius: 8px;
+      font-size: 15px;
+      font-weight: bold;
+      text-decoration: none;
+      display: inline-block;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #16A34A;
+    }
+
+    /* ── CARDS ── */
+    .cards {
+      display: flex;
+      gap: 20px;
+      justify-content: center;
+      padding: 0 40px 60px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: #1E293B;
+      border-radius: 10px;
+      padding: 24px;
+      width: 260px;
+      border: 1px solid #334155;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      font-size: 18px;
+      color: #22C55E;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      font-size: 14px;
+      color: #CBD5E1;
+      line-height: 1.6;
+    }
+
+    /* ── EQUIPO ── */
+    .equipo {
+      background: #1E293B;
+      padding: 50px 40px;
+      text-align: center;
+    }
+
+    .equipo h2 {
+      font-size: 28px;
+      margin-bottom: 25px;
+    }
+
+    .miembros {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .miembro {
+      background: #0F172A;
+      border-radius: 8px;
+      padding: 14px 20px;
+      font-size: 14px;
+      color: #CBD5E1;
+      border: 1px solid #334155;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 13px;
+      color: #64748B;
+      border-top: 1px solid #1E293B;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ── HEADER ── -->
+  <header>
+    <h1>LevelUp Gym</h1>
+    <span>SENA CTM Itagüí · 2026</span>
+  </header>
+
+  <!-- ── HERO ── -->
+  <div class="hero">
+    <h2>Transforma tu progreso físico</h2>
+
+    <p>
+      LevelUp Gym busca digitalizar y modernizar la experiencia del gimnasio
+      mediante rutinas personalizadas, seguimiento del progreso físico y una
+      tienda virtual de productos fitness para mejorar el rendimiento de los usuarios.
+    </p>
+
+    <a href="#" class="btn">Explorar Proyecto</a>
+  </div>
+
+  <!-- ── FUNCIONALIDADES ── -->
+  <div class="cards">
+
+    <div class="card">
+      <h3>Rutinas Personalizadas</h3>
+      <p>
+        Los usuarios podrán acceder a entrenamientos adaptados
+        según sus objetivos físicos y nivel de experiencia.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Seguimiento Físico</h3>
+      <p>
+        Registro digital del progreso corporal, peso,
+        rendimiento y evolución del entrenamiento.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Tienda Fitness</h3>
+      <p>
+        Compra de suplementos, straps, cinturones
+        y accesorios deportivos desde la plataforma.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- ── EQUIPO ── -->
+  <div class="equipo">
+    <h2>Nuestro Equipo</h2>
+
+    <div class="miembros">
+      <div class="miembro">David Gonzalez</div>
+      <div class="miembro">Brayan Valencia</div>
+      <div class="miembro">Hillary Cordoba Ocoro</div>
+    </div>
+  </div>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    Proyecto desarrollado en SENA CTM Itagüí · 2026
+  </footer>
+
+</body>
+</html>
